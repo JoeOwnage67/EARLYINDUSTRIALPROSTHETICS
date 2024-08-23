@@ -1,4 +1,4 @@
-**MEDIEVAL PROSTHETICS - EARLY INDUSTRIAL PROSTHETICS PATCH**
+**EARLY INDUSTRIAL PROSTHETICS PATCH for MEDIEVAL PROSTHETICS**
 
 **Support**
 
@@ -17,7 +17,10 @@ All credit for original rebalancing/reworking research projects and work ticks i
 This patch is meant to use Nuno's medieval prosthetics and change them to suit an early industrial / wild west theme, with no fantasy elements. Prosthetics recipes are stuffable where possible so you can choose which materials to use (Metallic, Woody, etc).
 
 
-**LINKS**		
+**LINKS**	
+
+EARLY INDUSTRIAL PROSTHETICS PATCH for MEDIEVAL PROSTHETICS (This Mod)
+https://github.com/JoeOwnage67/EARLYINDUSTRIALPROSTHETICS/ 
 				
 MEDIEVAL MEDICINES - MEDIEVAL OVERHAUL EDITION:				
 				
