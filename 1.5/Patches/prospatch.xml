@@ -1454,7 +1454,7 @@
 						<ResearchProjectDef>
 							<defName>CrudeLimbs</defName>
 							<label>Crude Limbs</label>
-							<description>Basic, uncomfortable, and ineffective, but better than nothing. Can now craft shoddy limb replacements at a Crafting Spot.</description>
+							<description>Basic, uncomfortable, and ineffective, but better than nothing. Can now craft shoddy limb replacements at a Crafting Spot or Smithy.</description>
 							<baseCost>500</baseCost>
 							<techLevel>Neolithic</techLevel>
 							<tags>
@@ -1473,7 +1473,7 @@
 							<ResearchProjectDef>
 								<defName>ArtificialLimbs</defName>
 								<label>Artificial Limbs</label>
-								<description>Still quite unrefined, but better than the shoddy limbs that came before. Artificial limbs can now be crafted at a Crafting Spot.</description>
+								<description>Still quite unrefined, but better than the shoddy limbs that came before. Artificial limbs can now be crafted at a Smithy.</description>
 								<baseCost>750</baseCost>
 								<techLevel>Neolithic</techLevel>
 								<prerequisites>
@@ -1495,7 +1495,7 @@
 							<ResearchProjectDef>
 								<defName>MechanicalLimbs</defName>
 								<label>Mechanical Limbs</label>
-								<description>Intricately crafted limbs with many pulleys and gears. While these are a great improvement, the mechanics of the human body are tough to reproduce. Mechanical limbs can be crafted at a Fueled Smithy.</description>
+								<description>Intricately crafted limbs with many pulleys and gears. While these are a great improvement, the mechanics of the human body are tough to reproduce. Mechanical limbs can be crafted at a Smithy.</description>
 								<baseCost>800</baseCost>
 								<techLevel>Medieval</techLevel>
 								<prerequisites>
