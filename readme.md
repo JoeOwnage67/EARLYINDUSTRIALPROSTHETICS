@@ -20,7 +20,9 @@ This patch is meant to use Nuno's medieval prosthetics and change them to suit a
 **LINKS**	
 
 EARLY INDUSTRIAL PROSTHETICS PATCH for MEDIEVAL PROSTHETICS (This Mod)
+
 https://github.com/JoeOwnage67/EARLYINDUSTRIALPROSTHETICS/ 
+
 				
 MEDIEVAL MEDICINES - MEDIEVAL OVERHAUL EDITION:				
 				
