@@ -55,7 +55,3 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2637345203
 
 -
 
-**CHANGES FOR 1.5:**
-- Added countsAsAddedPartOrImplant=true to parent of each type of prosthetic. Prosthetics should actually satisfy transhumanist/body modder now. Thank you to Damon and mountainofcheezo for figuring it out for me.
-
-- Corrected recipe for Artifical Foot to be Metallic Stuff instead of specifically Steel. Thanks PaprikaRobin for bringing that error to my attention. Double checked other recipes use the correct stuffed material.
