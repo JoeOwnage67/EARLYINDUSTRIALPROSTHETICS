@@ -402,7 +402,7 @@
 							<ThingDef ParentName="ArtificialMed">
 								<defName>ArtificialMedEye</defName>
 								<label>artificial eye</label>
-								<description>An non-functional artificial eye. Looks better than a hole in your head. You might not scare the children as much.</description>
+								<description>A non-functional artificial eye. Looks better than a hole in your head. You might not scare the children as much.</description>
 								<stuffCategories>
 									<li>Woody</li>
 								</stuffCategories>
@@ -421,7 +421,7 @@
 							<ThingDef ParentName="ArtificialMed">
 								<defName>ArtificialMedEar</defName>
 								<label>artificial ear</label>
-								<description>An non-functional artificial ear. Looks better than a hole in your head. You might not scare the children as much.</description>
+								<description>A non-functional artificial ear. Looks better than a hole in your head. You might not scare the children as much.</description>
 								<stuffCategories>
 									<li>Woody</li>
 								</stuffCategories>
@@ -687,7 +687,7 @@
 								<defName>IronArm</defName>
 								<label>iron arm</label>
 								<labelNoun>an iron arm</labelNoun>
-								<description>An installed iron arm.</description>
+								<description>A highly ineffective replacement for a missing arm.</description>
 								<descriptionHyperlinks>
 									<ThingDef>IronArm</ThingDef>
 								</descriptionHyperlinks>
@@ -721,7 +721,7 @@
 								<defName>ProstheticHook</defName>
 								<label>prosthetic hook</label>
 								<labelNoun>a prosthetic hook</labelNoun>
-								<description>An installed prosthetic hook.</description>
+								<description>A simple hook to replace a missing hand. Very limited functionality.</description>
 								<descriptionHyperlinks>
 									<ThingDef>ProstheticHook</ThingDef>
 								</descriptionHyperlinks>
@@ -755,7 +755,7 @@
 								<defName>WoodenFoot</defName>
 								<label>wooden foot</label>
 								<labelNoun>a wooden foot</labelNoun>
-								<description>An installed wooden foot.</description>
+								<description>A crude replica of a human foot made out of wood. Uncomfortable and ineffective, but better than nothing.</description>
 								<descriptionHyperlinks>
 									<ThingDef>WoodenFoot</ThingDef>
 								</descriptionHyperlinks>
@@ -775,7 +775,7 @@
 								<defName>WoodenToe</defName>
 								<label>wooden toe</label>
 								<labelNoun>a wooden toe</labelNoun>
-								<description>An installed wooden toe.</description>
+								<description>Wooden replacement for a missing toe.</description>
 								<descriptionHyperlinks>
 									<ThingDef>WoodenToe</ThingDef>
 								</descriptionHyperlinks>
@@ -795,7 +795,7 @@
 								<defName>WoodenFinger</defName>
 								<label>wooden finger</label>
 								<labelNoun>a wooden finger</labelNoun>
-								<description>An installed wooden finger.</description>
+								<description>Wooden replacement for a missing finger.</description>
 								<descriptionHyperlinks>
 									<ThingDef>WoodenFinger</ThingDef>
 								</descriptionHyperlinks>
@@ -815,7 +815,7 @@
 								<defName>WoodenNose</defName>
 								<label>wooden nose</label>
 								<labelNoun>a wooden nose</labelNoun>
-								<description>An installed wooden nose.</description>
+								<description>Wooden replacement for a missing nose.</description>
 								<descriptionHyperlinks>
 									<ThingDef>WoodenNose</ThingDef>
 								</descriptionHyperlinks>
@@ -835,7 +835,7 @@
 								<defName>EyePatch</defName>
 								<label>eye patch</label>
 								<labelNoun>an eye patch</labelNoun>
-								<description>An installed eye patch.</description>
+								<description>Piece of cloth to cover the hole where one's eye once was.</description>
 								<descriptionHyperlinks>
 									<ThingDef>EyePatch</ThingDef>
 								</descriptionHyperlinks>
@@ -855,7 +855,7 @@
 								<defName>EarPatch</defName>
 								<label>ear patch</label>
 								<labelNoun>an ear patch</labelNoun>
-								<description>An installed ear patch.</description>
+								<description>Piece of cloth to cover the hole where one's ear once was.</description>
 								<descriptionHyperlinks>
 									<ThingDef>EarPatch</ThingDef>
 								</descriptionHyperlinks>
@@ -1038,7 +1038,7 @@
 								<defName>ArtificialMedNose</defName>
 								<label>artificial nose</label>
 								<labelNoun>an artificial nose</labelNoun>
-								<description>An installed artificial nose.</description>
+								<description>A non-functional artificial nose. Looks better than a hole in your head. You might not scare the children as much.</description>
 								<descriptionHyperlinks>
 									<ThingDef>ArtificialMedNose</ThingDef>
 								</descriptionHyperlinks>
@@ -1065,7 +1065,7 @@
 								<defName>ArtificialMedEye</defName>
 								<label>artificial eye</label>
 								<labelNoun>an artificial eye</labelNoun>
-								<description>An installed artificial eye.</description>
+								<description>A non-functional artificial eye. Looks better than a hole in your head. You might not scare the children as much.</description>
 								<descriptionHyperlinks>
 									<ThingDef>ArtificialMedEye</ThingDef>
 								</descriptionHyperlinks>
@@ -1092,7 +1092,7 @@
 								<defName>ArtificialMedEar</defName>
 								<label>artificial ear</label>
 								<labelNoun>an artificial ear</labelNoun>
-								<description>An installed artificial ear.</description>
+								<description>A non-functional artificial ear. Looks better than a hole in your head. You might not scare the children as much.</description>
 								<descriptionHyperlinks>
 									<ThingDef>ArtificialMedEar</ThingDef>
 								</descriptionHyperlinks>
@@ -1282,7 +1282,7 @@
 								<defName>MechanicalMedNose</defName>
 								<label>mechanical nose</label>
 								<labelNoun>a mechanical nose</labelNoun>
-								<description>An installed mechanical nose.</description>
+								<description>A fairly convincing non-functional facsimile of a nose.</description>
 								<descriptionHyperlinks>
 									<ThingDef>MechanicalMedNose</ThingDef>
 								</descriptionHyperlinks>
@@ -1310,7 +1310,7 @@
 								<defName>MechanicalMedEye</defName>
 								<label>mechanical eye</label>
 								<labelNoun>a mechanical eye</labelNoun>
-								<description>An installed mechanical eye.</description>
+								<description>A fairly convincing non-functional facsimile of an eye.</description>
 								<descriptionHyperlinks>
 									<ThingDef>MechanicalMedEye</ThingDef>
 								</descriptionHyperlinks>
@@ -1338,7 +1338,7 @@
 								<defName>MechanicalMedEar</defName>
 								<label>mechanical ear</label>
 								<labelNoun>a mechanical ear</labelNoun>
-								<description>An installed mechanical ear.</description>
+								<description>A fairly convincing non-functional facsimile of an ear.</description>
 								<descriptionHyperlinks>
 									<ThingDef>MechanicalMedEar</ThingDef>
 								</descriptionHyperlinks>
