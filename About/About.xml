@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>MEDIEVAL PROSTHETICS - EARLY INDUSTRIAL PROSTHETICS PATCH</name>
+	<author>Joe Daly</author>
+	<url>https://github.com/JoeOwnage67/</url>
+	<supportedVersions>
+        	<li>1.4</li>
+			<li>1.5</li>
+    </supportedVersions>
+	<packageId>JoeDaly.prospatch.core</packageId>
+  	<loadAfter>
+		<li>NunahurAlShamikh.MedP</li>		
+	</loadAfter>
+
+	<modDependencies>
+	  <li>
+		  <packageId>NunahurAlShamikh.MedP</packageId>
+		  <displayName>Medieval Prosthetics</displayName>
+	  </li>
+	</modDependencies>
+	<description>Early Industrial Themed Prostherics without fantasy elements</description>
+</ModMetaData>
