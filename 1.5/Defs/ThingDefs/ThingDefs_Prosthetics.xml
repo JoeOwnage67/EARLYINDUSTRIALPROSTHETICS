@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+
+			<!-- THINGDEFS -->
+			<!-- basic prosthetics -->	
+
+				<!--  Parent -->
+				
+							<ThingDef Name="Basic" ParentName="BodyPartBase" Abstract="True">
+								<techLevel>Neolithic</techLevel>
+								<techHediffsTags>
+										<li>Simple</li>
+								</techHediffsTags>
+								<tradeTags>
+										<li>BasicProstheses</li>
+								</tradeTags>
+								<thingCategories>
+										<li>BodyPartsSimple</li>
+								</thingCategories>
+								<graphicData>
+										<texPath>Things/Item/BodyPart/BasicProsthesis</texPath>
+										<graphicClass>Graphic_Single</graphicClass>
+										<drawSize>0.80</drawSize>
+										<shaderType>CutoutComplex</shaderType>
+								</graphicData>
+								<statBases>
+										<DeteriorationRate>2</DeteriorationRate>
+										<WorkToMake>4000</WorkToMake>
+								</statBases>
+								<recipeMaker>
+										<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+										<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+										<workSkill>Crafting</workSkill>
+										<effectWorking>Smith</effectWorking>
+										<researchPrerequisite>CrudeLimbs</researchPrerequisite>
+										<recipeUsers>
+											<li>CraftingSpot</li>
+											<li>FueledSmithy</li>
+											<li>ElectricSmithy</li>										
+										</recipeUsers>
+								</recipeMaker>
+							</ThingDef>
+			
+				<!--  Iron Arm  -->
+					
+							<ThingDef ParentName="Basic">
+								<defName>IronArm</defName>
+								<label>iron arm</label>
+								<description>A highly ineffective replacement for a missing arm.</description>
+								<stuffCategories>
+									<li>Metallic</li>
+								</stuffCategories>
+								<costStuffCount>50</costStuffCount>
+								<statBases>
+									<Mass>2</Mass>
+								</statBases>
+							</ThingDef>
+					
+					<!--  Prosthetic Hook  -->					
+							<ThingDef ParentName="Basic">
+								<defName>ProstheticHook</defName>
+								<label>prosthetic hook</label>
+								<description>A simple hook to replace a missing hand. Very limited functionality.</description>
+								<stuffCategories>
+									<li>Metallic</li>
+								</stuffCategories>
+								<costStuffCount>25</costStuffCount>
+								<statBases>
+									<WorkToMake>3000</WorkToMake>
+									<Mass>6</Mass>
+								</statBases>
+							</ThingDef>
+					
+					<!--  Wooden Foot  -->					
+							<ThingDef ParentName="Basic">
+								<defName>WoodenFoot</defName>
+								<label>wooden foot</label>
+								<description>A crude replica of a human foot made out of wood. Uncomfortable and ineffective, but better than nothing.</description>
+								<stuffCategories>
+										<li>Woody</li>
+								</stuffCategories>
+								<costStuffCount>25</costStuffCount>
+								<statBases>
+									<WorkToMake>3000</WorkToMake>
+									<Mass>2</Mass>
+								</statBases>
+							</ThingDef>
+					
+					<!--  Wooden toe  -->					
+							<ThingDef ParentName="Basic">
+								<defName>WoodenToe</defName>
+								<label>wooden toe</label>
+								<description>Wooden replacement for a missing toe.</description>
+								<stuffCategories>
+									<li>Woody</li>
+								</stuffCategories>
+								<costStuffCount>5</costStuffCount>
+								<statBases>
+									<WorkToMake>2000</WorkToMake>
+									<Mass>0.2</Mass>
+								</statBases>
+							</ThingDef>
+					
+					<!--  Wooden Finger  -->					
+							<ThingDef ParentName="Basic">
+								<defName>WoodenFinger</defName>
+								<label>wooden finger</label>
+								<description>Wooden replacement for a missing finger.</description>
+								<stuffCategories>
+									<li>Woody</li>
+								</stuffCategories>
+								<costStuffCount>5</costStuffCount>
+								<statBases>
+									<WorkToMake>2000</WorkToMake>
+									<Mass>0.2</Mass>
+								</statBases>
+							</ThingDef>
+					
+					<!--  Wooden nose  -->					
+							<ThingDef ParentName="Basic">
+								<defName>WoodenNose</defName>
+								<label>wooden nose</label>
+								<description>Wooden replacement for a missing nose.</description>
+								<stuffCategories>
+									<li>Woody</li>
+								</stuffCategories>
+								<costStuffCount>5</costStuffCount>
+								<statBases>
+									<WorkToMake>3000</WorkToMake>
+									<Mass>0.1</Mass>
+								</statBases>
+							</ThingDef>
+						
+					<!--  Eye patch  -->					
+							<ThingDef ParentName="Basic">
+								<defName>EyePatch</defName>
+								<label>eye patch</label>
+								<description>Piece of cloth to cover the hole where one's eye once was.</description>
+								<stuffCategories>
+									<li>Fabric</li>
+								</stuffCategories>
+								<costStuffCount>15</costStuffCount>
+								<statBases>
+									<WorkToMake>2000</WorkToMake>
+									<Mass>0.1</Mass>
+								</statBases>
+							</ThingDef>
+						
+					<!--  Ear patch  -->										
+							<ThingDef ParentName="Basic">
+								<defName>EarPatch</defName>
+								<label>ear patch</label>
+								<description>Piece of cloth to cover the hole where one's ear once was.</description>
+								<stuffCategories>
+									<li>Fabric</li>
+								</stuffCategories>
+								<costStuffCount>15</costStuffCount>
+								<statBases>
+									<WorkToMake>2000</WorkToMake>
+									<Mass>0.1</Mass>
+								</statBases>
+							</ThingDef>
+						
+				<!-- artificial prosthetics -->	
+
+					<!--  Parent  -->
+							<ThingDef Name="ArtificialMed" ParentName="BodyPartBase" Abstract="True">
+								<techLevel>Neolithic</techLevel>
+								<techHediffsTags>
+									<li>Simple</li>
+									</techHediffsTags>
+									<tradeTags>
+										<li>Prostheses</li>
+									</tradeTags>
+									<thingCategories>
+										<li>BodyPartsSimple</li>
+									</thingCategories>
+									<graphicData>
+										<texPath>Things/Item/BodyPart/BasicProsthesis</texPath>
+										<graphicClass>Graphic_Single</graphicClass>
+										<drawSize>0.80</drawSize>
+										<shaderType>CutoutComplex</shaderType>
+									</graphicData>
+									<statBases>
+										<DeteriorationRate>2</DeteriorationRate>
+										<WorkToMake>8000</WorkToMake>
+									</statBases>
+									<recipeMaker>
+										<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+										<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+										<workSkill>Crafting</workSkill>
+										<effectWorking>Smith</effectWorking>
+										<researchPrerequisite>ArtificialLimbs</researchPrerequisite>
+										<recipeUsers>      		
+											<li>FueledSmithy</li>
+											<li>ElectricSmithy</li>	
+										</recipeUsers>
+									</recipeMaker>
+							</ThingDef>
+					
+					<!--  artificial hand  -->				
+							<ThingDef ParentName="ArtificialMed">
+								<defName>ArtificialMedHand</defName>
+								<label>artificial hand</label>
+								<description>An artificial hand.</description>
+								<stuffCategories>
+									<li>Metallic</li>
+								</stuffCategories>
+								<costStuffCount>55</costStuffCount>
+								<costList>
+									<WoodLog>10</WoodLog>
+								</costList>
+								<statBases>
+									<WorkToMake>7000</WorkToMake>
+									<Mass>2</Mass>
+								</statBases>
+							</ThingDef>
+						
+					<!--  artificial arm  -->					
+							<ThingDef ParentName="ArtificialMed">
+								<defName>ArtificialMedArm</defName>
+								<label>artificial arm</label>
+								<description>An artificial arm.</description>
+								<costList>
+									<WoodLog>25</WoodLog>
+								</costList>
+								<stuffCategories>
+									<li>Metallic</li>
+								</stuffCategories>
+								<costStuffCount>100</costStuffCount>
+								<statBases>
+									<Mass>6</Mass>
+								</statBases>
+							</ThingDef>
+						
+					<!--  artificial leg  -->					
+							<ThingDef ParentName="ArtificialMed">
+								<defName>ArtificialMedLeg</defName>
+								<label>artificial leg</label>
+								<description>An artificial leg.</description>
+								<costList>
+									<WoodLog>25</WoodLog>
+								</costList>
+								<stuffCategories>
+									<li>Metallic</li>
+								</stuffCategories>
+								<costStuffCount>100</costStuffCount>
+								<statBases>
+									<Mass>8</Mass>
+								</statBases>
+							</ThingDef>
+						
+					<!--  artificial foot  -->					
+							<ThingDef ParentName="ArtificialMed">
+								<defName>ArtificialMedFoot</defName>
+								<label>artificial foot</label>
+								<description>An artificial foot.</description>
+								<stuffCategories>
+									<li>Metallic</li>
+								</stuffCategories>
+								<costStuffCount>55</costStuffCount>
+								<costList>		
+									<WoodLog>10</WoodLog>
+								</costList>
+								<statBases>
+									<WorkToMake>7000</WorkToMake>
+									<Mass>2</Mass>
+								</statBases>
+							</ThingDef>
+					
+					<!--  artificial toe  -->	
+							<ThingDef ParentName="ArtificialMed">
+								<defName>ArtificialMedToe</defName>
+								<label>artificial toe</label>
+								<description>An artificial toe.</description>
+								<costList>
+									<WoodLog>5</WoodLog>
+								</costList>
+								<stuffCategories>
+									<li>Metallic</li>
+								</stuffCategories>
+								<costStuffCount>15</costStuffCount>
+								<statBases>
+									<WorkToMake>4000</WorkToMake>
+									<Mass>0.2</Mass>
+								</statBases>
+							</ThingDef>
+						
+					<!--  Artificial finger -->					
+							<ThingDef ParentName="ArtificialMed">
+								<defName>ArtificialMedFinger</defName>
+								<label>artificial finger</label>
+								<description>An artificial finger.</description>
+								<costList>
+									<WoodLog>5</WoodLog>
+								</costList>
+								<stuffCategories>
+									<li>Metallic</li>
+								</stuffCategories>
+								<costStuffCount>15</costStuffCount>
+								<statBases>
+									<WorkToMake>4000</WorkToMake>
+									<Mass>0.2</Mass>
+								</statBases>
+							</ThingDef>
+					
+					<!--  artificial nose  -->	
+							<ThingDef ParentName="ArtificialMed">
+								<defName>ArtificialMedNose</defName>
+								<label>artificial nose</label>
+								<description>A non-functional artificial nose. Looks better than a hole in your head. You might not scare the children as much.</description>
+								<stuffCategories>
+									<li>Woody</li>
+								</stuffCategories>
+								<costStuffCount>15</costStuffCount>
+								<statBases>
+									<WorkToMake>7000</WorkToMake>
+									<Mass>0.2</Mass>
+								</statBases>
+							</ThingDef>		
+						
+					<!--  Artificial eye  -->					
+							<ThingDef ParentName="ArtificialMed">
+								<defName>ArtificialMedEye</defName>
+								<label>artificial eye</label>
+								<description>A non-functional artificial eye. Looks better than a hole in your head. You might not scare the children as much.</description>
+								<stuffCategories>
+									<li>Woody</li>
+								</stuffCategories>
+								<costStuffCount>15</costStuffCount>
+								<statBases>
+									<WorkToMake>7000</WorkToMake>
+									<Mass>0.2</Mass>
+								</statBases>
+							</ThingDef>
+						
+					<!--  Artificial ear  -->					
+							<ThingDef ParentName="ArtificialMed">
+								<defName>ArtificialMedEar</defName>
+								<label>artificial ear</label>
+								<description>A non-functional artificial ear. Looks better than a hole in your head. You might not scare the children as much.</description>
+								<stuffCategories>
+									<li>Woody</li>
+								</stuffCategories>
+								<costStuffCount>15</costStuffCount>
+								<statBases>
+									<WorkToMake>7000</WorkToMake>
+									<Mass>0.2</Mass>
+								</statBases>
+							</ThingDef>						
+
+				<!-- MECHANICAL prosthetics -->	
+
+					<!--> Parent <-->					
+							<ThingDef Name="MechanicalMed" ParentName="BodyPartBase" Abstract="True">
+								<techLevel>Medieval</techLevel>
+								<techHediffsTags>
+									<li>Simple</li>
+								</techHediffsTags>
+								<tradeTags>
+									<li>Mechanical</li>
+								</tradeTags>
+								<thingCategories>
+										<li>BodyPartsSimple</li>
+								</thingCategories>
+								<graphicData>
+									<texPath>Things/Item/BodyPart/MechanicalProsthesis</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>0.80</drawSize>
+									<shaderType>CutoutComplex</shaderType>
+								</graphicData>
+								<statBases>
+									<DeteriorationRate>2</DeteriorationRate>
+									<WorkToMake>12000</WorkToMake>
+								</statBases>
+								<recipeMaker>
+									<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+									<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+									<workSkill>Crafting</workSkill>
+									<effectWorking>Smith</effectWorking>
+									<researchPrerequisite>MechanicalLimbs</researchPrerequisite>
+									<recipeUsers>
+										<li>FueledSmithy</li>
+										<li>ElectricSmithy</li>	
+									</recipeUsers>
+								</recipeMaker>
+							</ThingDef>
+						
+					<!--  mechanical hand  -->					
+							<ThingDef ParentName="MechanicalMed">
+								<defName>MechanicalMedHand</defName>
+								<label>mechanical hand</label>
+								<description>A mechanical hand.</description>
+								<costList>
+									<ComponentIndustrial>3</ComponentIndustrial>
+								</costList>
+								<stuffCategories>
+									<li>Metallic</li>
+								</stuffCategories>
+								<costStuffCount>70</costStuffCount>
+								<statBases>
+									<WorkToMake>11000</WorkToMake>
+									<Mass>4</Mass>
+								</statBases>
+							</ThingDef>
+						
+					<!--  mechanical arm  -->
+							<ThingDef ParentName="MechanicalMed">
+								<defName>MechanicalMedArm</defName>
+								<label>mechanical arm</label>
+								<description>A mechanical arm.</description>
+								<costList>
+									<ComponentIndustrial>6</ComponentIndustrial>
+								</costList>
+								<stuffCategories>
+									<li>Metallic</li>
+								</stuffCategories>
+								<costStuffCount>115</costStuffCount>
+								<statBases>
+									<Mass>8</Mass>
+								</statBases>
+							</ThingDef>
+						
+					<!--  mechanical leg  -->					
+							<ThingDef ParentName="MechanicalMed">
+								<defName>MechanicalMedLeg</defName>
+								<label>mechanical leg</label>
+								<description>A mechanical leg.</description>
+								<costList>
+									<ComponentIndustrial>6</ComponentIndustrial>
+								</costList>
+								<stuffCategories>
+									<li>Metallic</li>
+								</stuffCategories>
+								<costStuffCount>115</costStuffCount>
+								<statBases>
+									<Mass>10</Mass>
+								</statBases>
+							</ThingDef>
+						
+					<!--  mechanical foot  -->					
+							<ThingDef ParentName="MechanicalMed">
+								<defName>MechanicalMedFoot</defName>
+								<label>mechanical foot</label>
+								<description>A mechanical foot.</description>
+								<costList>
+									<ComponentIndustrial>3</ComponentIndustrial>
+								</costList>
+								<stuffCategories>
+									<li>Metallic</li>
+								</stuffCategories>
+								<costStuffCount>70</costStuffCount>
+								<statBases>
+									<WorkToMake>11000</WorkToMake>
+									<Mass>4</Mass>
+								</statBases>
+							</ThingDef>
+							
+					<!--  mechanical toe -->					
+							<ThingDef ParentName="MechanicalMed">
+								<defName>MechanicalMedToe</defName>
+								<label>mechanical toe</label>
+								<description>A mechanical toe.</description>
+								<costList>
+									<ComponentIndustrial>1</ComponentIndustrial>
+								</costList>
+								<stuffCategories>
+									<li>Metallic</li>
+								</stuffCategories>
+								<costStuffCount>25</costStuffCount>
+								<statBases>
+									<WorkToMake>6000</WorkToMake>
+									<Mass>0.2</Mass>
+								</statBases>
+							</ThingDef>	
+						
+					<!--  mechanical  finger -->					
+							<ThingDef ParentName="MechanicalMed">
+								<defName>MechanicalMedFinger</defName>
+								<label>mechanical finger</label>
+								<description>A mechanical finger.</description>
+								<costList>
+									<ComponentIndustrial>1</ComponentIndustrial>
+								</costList>
+								<stuffCategories>
+									<li>Metallic</li>
+								</stuffCategories>
+								<costStuffCount>25</costStuffCount>
+								<statBases>
+									<WorkToMake>6000</WorkToMake>
+									<Mass>0.2</Mass>
+								</statBases>
+							</ThingDef>
+						
+					<!--  mechanical nose-->
+							<ThingDef ParentName="MechanicalMed">
+								<defName>MechanicalMedNose</defName>
+								<label>Mechanical nose</label>
+								<description>A fairly convincing non-functional facsimile of a nose.</description>
+								<stuffCategories>
+									<li>Metallic</li>
+								</stuffCategories>
+								<costStuffCount>10</costStuffCount>
+								<statBases>
+									<WorkToMake>11000</WorkToMake>
+									<Mass>0.4</Mass>
+								</statBases>
+							</ThingDef>
+					
+					<!--  mechanical eye -->
+							<ThingDef ParentName="MechanicalMed">
+								<defName>MechanicalMedEye</defName>
+								<label>Mechanical eye</label>
+								<description>A fairly convincing non-functional facsimile of an eye.</description>
+								<stuffCategories>
+									<li>Metallic</li>
+								</stuffCategories>
+								<costStuffCount>10</costStuffCount>
+								<statBases>
+									<WorkToMake>11000</WorkToMake>
+									<Mass>0.4</Mass>
+								</statBases>
+							</ThingDef>
+						
+					<!--  mechanical ear -->	
+							<ThingDef ParentName="MechanicalMed">
+								<defName>MechanicalMedEar</defName>
+								<label>Mechanical ear</label>
+								<description>A fairly convincing non-functional facsimile of an ear.</description>
+								<stuffCategories>
+									<li>Metallic</li>
+								</stuffCategories>
+								<costStuffCount>10</costStuffCount>
+								<statBases>
+									<WorkToMake>11000</WorkToMake>
+									<Mass>0.4</Mass>
+								</statBases>
+							</ThingDef>
+</Defs>
+							  
+						

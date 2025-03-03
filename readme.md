@@ -8,7 +8,11 @@ If you like this content, feel free buy me a coffee at ko-fi.com/joeownage
 
 EARLY INDUSTRIAL PROSTHETICS PATCH for MEDIEVAL PROSTHETICS
 
-This is a patch for Nuno's mod, "Medieval Prosthetics", applying rebalancing to work amounts, materials, etc to align with my "Medieval Medicines - Medieval Overhaul Edition" values, with the fantasy elements removed, and DOES NOT require Medieval Overhaul. 
+This started out as a patch for Nuno's mod, "Medieval Prosthetics", applying rebalancing to work amounts, materials, etc to align with my "Medieval Medicines - Medieval Overhaul Edition" values, with the fantasy elements removed.
+
+I had to make this a standalone mod because I can't patch the 1.5 edition of Nuno's mod due to him using an assembly.
+
+This mod DOES NOT require Medieval Overhaul or any other mod.
   
 All credit for the original mods and art assets goes to Nuno. 
 
@@ -19,7 +23,7 @@ This patch is meant to use Nuno's medieval prosthetics and change them to suit a
 
 **LINKS**	
 
-EARLY INDUSTRIAL PROSTHETICS PATCH for MEDIEVAL PROSTHETICS (This Mod)
+EARLY INDUSTRIAL PROSTHETICS (This Mod)
 
 https://github.com/JoeOwnage67/EARLYINDUSTRIALPROSTHETICS/ 
 
