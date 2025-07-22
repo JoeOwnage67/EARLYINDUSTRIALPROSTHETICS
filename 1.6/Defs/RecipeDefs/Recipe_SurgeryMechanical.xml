@@ -6,6 +6,7 @@
 <deathOnFailedSurgeryChance>0</deathOnFailedSurgeryChance>
 <recipeUsers>
 <li>Human</li>
+<li MayRequire="Ludeon.RimWorld.Anomaly">CreepJoiner</li>
 </recipeUsers>
 <dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
 </RecipeDef>

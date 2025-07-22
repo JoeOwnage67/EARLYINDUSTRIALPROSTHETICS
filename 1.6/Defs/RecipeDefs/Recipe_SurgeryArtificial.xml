@@ -1,128 +1,138 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Defs>
-<RecipeDef Name="SurgeryMedArtificial" ParentName="SurgeryFlesh" Abstract="True">
-<surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
-<deathOnFailedSurgeryChance>0</deathOnFailedSurgeryChance>
-<recipeUsers>
-<li>Human</li>
-</recipeUsers>
-<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
-</RecipeDef>
-<RecipeDef ParentName="SurgeryMedArtificial">
-<defName>InstallArtificialMedHand</defName>
-<label>install artificial hand</label>
-<description>Installs artificial hand.</description>
-<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-<jobString>Installing artificial hand.</jobString>
-<workAmount>350</workAmount>
-<ingredients>
-<li>
-<filter>
-<categories>
-<li>Medicine</li>
-</categories>
-</filter>
-<count>1</count>
-</li>
-<li>
-<filter>
-<thingDefs>
-<li>ArtificialMedHand</li>
-</thingDefs>
-</filter>
-<count>1</count>
-</li>
-</ingredients>
-<fixedIngredientFilter>
-<categories>
-<li>Medicine</li>
-</categories>
-<thingDefs>
-<li>ArtificialMedHand</li>
-</thingDefs>
-</fixedIngredientFilter>
-<appliedOnFixedBodyParts>
-<li>Hand</li>
-</appliedOnFixedBodyParts>
-<addsHediff>ArtificialMedHand</addsHediff>
-</RecipeDef>
-<RecipeDef ParentName="SurgeryMedArtificial">
-<defName>InstallArtificialMedArm</defName>
-<label>install artificial arm</label>
-<description>Installs artificial arm.</description>
-<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-<jobString>Installing artificial arm.</jobString>
-<workAmount>350</workAmount>
-<ingredients>
-<li>
-<filter>
-<categories>
-<li>Medicine</li>
-</categories>
-</filter>
-<count>1</count>
-</li>
-<li>
-<filter>
-<thingDefs>
-<li>ArtificialMedArm</li>
-</thingDefs>
-</filter>
-<count>1</count>
-</li>
-</ingredients>
-<fixedIngredientFilter>
-<categories>
-<li>Medicine</li>
-</categories>
-<thingDefs>
-<li>ArtificialMedArm</li>
-</thingDefs>
-</fixedIngredientFilter>
-<appliedOnFixedBodyParts>
-<li>Shoulder</li>
-</appliedOnFixedBodyParts>
-<addsHediff>ArtificialMedArm</addsHediff>
-</RecipeDef>
-<RecipeDef ParentName="SurgeryMedArtificial">
-<defName>InstallArtificialMedLeg</defName>
-<label>install artificial leg</label>
-<description>Installs artificial leg.</description>
-<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-<jobString>Installing artificial leg.</jobString>
-<workAmount>350</workAmount>
-<ingredients>
-<li>
-<filter>
-<categories>
-<li>Medicine</li>
-</categories>
-</filter>
-<count>1</count>
-</li>
-<li>
-<filter>
-<thingDefs>
-<li>ArtificialMedLeg</li>
-</thingDefs>
-</filter>
-<count>1</count>
-</li>
-</ingredients>
-<fixedIngredientFilter>
-<categories>
-<li>Medicine</li>
-</categories>
-<thingDefs>
-<li>ArtificialMedLeg</li>
-</thingDefs>
-</fixedIngredientFilter>
-<appliedOnFixedBodyParts>
-<li>Leg</li>
-</appliedOnFixedBodyParts>
-<addsHediff>ArtificialMedLeg</addsHediff>
-</RecipeDef>
+    <!-- parent -->
+    <RecipeDef Name="SurgeryMedArtificial" ParentName="SurgeryFlesh" Abstract="True">
+        <surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
+        <deathOnFailedSurgeryChance>0</deathOnFailedSurgeryChance>
+        <recipeUsers>
+            <li>Human</li>
+            <li MayRequire="Ludeon.RimWorld.Anomaly">CreepJoiner</li>
+        </recipeUsers>
+        <dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
+    </RecipeDef>
+
+    <!-- artificial hand -->
+    <RecipeDef ParentName="SurgeryMedArtificial">
+        <defName>InstallArtificialMedHand</defName>
+        <label>install artificial hand</label>
+        <description>Installs artificial hand.</description>
+        <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+        <jobString>Installing artificial hand.</jobString>
+        <workAmount>350</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Medicine</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ArtificialMedHand</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>Medicine</li>
+            </categories>
+            <thingDefs>
+                <li>ArtificialMedHand</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Hand</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>ArtificialMedHand</addsHediff>
+    </RecipeDef>
+
+    <!-- artificial arm -->
+    <RecipeDef ParentName="SurgeryMedArtificial">
+        <defName>InstallArtificialMedArm</defName>
+        <label>install artificial arm</label>
+        <description>Installs artificial arm.</description>
+        <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+        <jobString>Installing artificial arm.</jobString>
+        <workAmount>350</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Medicine</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ArtificialMedArm</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>Medicine</li>
+            </categories>
+            <thingDefs>
+                <li>ArtificialMedArm</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Shoulder</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>ArtificialMedArm</addsHediff>
+    </RecipeDef>
+
+    <!-- artificial leg -->
+    <RecipeDef ParentName="SurgeryMedArtificial">
+        <defName>InstallArtificialMedLeg</defName>
+        <label>install artificial leg</label>
+        <description>Installs artificial leg.</description>
+        <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+        <jobString>Installing artificial leg.</jobString>
+        <workAmount>350</workAmount>
+        <ingredients>
+            <li>
+            <filter>
+                <categories>
+                    <li>Medicine</li>
+                </categories>
+            </filter>
+            <count>1</count>
+            </li>
+            <li>
+            <filter>
+                <thingDefs>
+                    <li>ArtificialMedLeg</li>
+                </thingDefs>
+            </filter>
+            <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>Medicine</li>
+            </categories>
+            <thingDefs>
+                <li>ArtificialMedLeg</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Leg</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>ArtificialMedLeg</addsHediff>
+    </RecipeDef>
+
+    <!-- ARTIFICIAL FOOT -->
 <RecipeDef ParentName="SurgeryMedArtificial">
 <defName>InstallArtificialMedFoot</defName>
 <label>install artificial foot</label>
